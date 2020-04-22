@@ -1,0 +1,36 @@
+html {
+  /*火狐下隐藏滚动条*/
+  scrollbar-width: none;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  height: 100%;
+  width: calc(100vw + 18px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#root-master {
+  height: 100vh;
+
+  :global {
+    .ant-menu-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .ant-menu-inline-collapsed {
+      .ant-menu-item {
+        span {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
