@@ -98,7 +98,7 @@
     "pont-engine": "^0.3.20",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.12.0",
-    "standard-version": "^7.0.1",
+    "standard-version": "^8.0.1",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2",
     "umi": "^3.1.1",
